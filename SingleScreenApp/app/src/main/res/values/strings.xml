@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Single ScreenApp</string>
+    <string name="nameText">Szintezis-net Kft. </string>
+    <string name="tel">Phone number: +36 96 550 521</string>
+    <string name="email">E-mail: info@szintezis-net.hu</string>
+    <string name="web">Web: www.szintezis-net.hu</string>
+    <string name="serviceText">Services</string>
+    <string name="mobileText">Mobile technologies</string>
+    <string name="webText">Web technologies</string>
+    <string name="softwareText">Software for business</string>
+    <string name="outSourcingText"> Outsourcing services</string>
+    <string name="innovativeText">Innovative technologies</string>
+    <string name="creativeText">Creative solutions</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_marginTop="@dimen/top"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameText"
+        android:textSize="@dimen/tittleSize"
+        android:layout_marginBottom="@dimen/bottom"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginBottom="@dimen/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:text="@string/tel"
+        android:autoLink="phone"/>
+    <TextView
+        android:id="@+id/mailText"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginBottom="@dimen/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneText"
+        android:text="@string/email"
+        android:autoLink="email"
+        />
+
+    <TextView
+        android:id="@+id/webText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:autoLink="web"
+        android:layout_below="@id/mailText"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginBottom="@dimen/line"
+        />
+
+    <TextView
+        android:id="@+id/serviceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webText"
+        android:text="@string/serviceText"
+        android:textAllCaps="true"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginBottom="@dimen/line"/>
+
+    <TextView
+        android:id="@+id/mobilId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serviceText"
+        android:text="@string/mobileText"
+        android:layout_marginLeft="@dimen/query"
+        android:layout_marginBottom="@dimen/line"/>
+
+    <TextView
+        android:id="@+id/webId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobilId"
+        android:text="@string/webText"
+        android:layout_marginLeft="@dimen/query"
+        android:layout_marginBottom="@dimen/line"/>
+
+    <TextView
+        android:id="@+id/businessId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webId"
+        android:text="@string/softwareText"
+        android:layout_marginLeft="@dimen/query"
+        android:layout_marginBottom="@dimen/line"/>
+
+    <TextView
+        android:id="@+id/outsource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/businessId"
+        android:text="@string/outSourcingText"
+        android:layout_marginLeft="@dimen/query"
+        android:layout_marginBottom="@dimen/line"/>
+
+    <TextView
+        android:id="@+id/innovative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outsource"
+        android:text="@string/innovativeText"
+        android:layout_marginLeft="@dimen/query"
+        android:layout_marginBottom="@dimen/line"/>
+
+    <TextView
+        android:id="@+id/creative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/innovative"
+        android:text="@string/creativeText"
+        android:layout_marginLeft="@dimen/query"
+        />
+
+
+
+</RelativeLayout>

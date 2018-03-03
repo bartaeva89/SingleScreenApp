@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_margin">16dp</dimen>
+    <dimen name="top">20dp</dimen>
+    <dimen name="bottom">30dp</dimen>
+    <dimen name="line">10dp</dimen>
+    <dimen name="tittleSize">30sp</dimen>
+    <dimen name="query">25dp</dimen>
+</resources>
